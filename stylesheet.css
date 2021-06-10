@@ -157,7 +157,7 @@ header .container {
   border-radius: 5px;
 }
 
-.btn:hover {
+.content2 .container .right .btn-wrapper .btn:hover {
   opacity: 1;
 }
 
