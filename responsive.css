@@ -1,0 +1,77 @@
+@media all and (max-width: 1250px) {
+  .header-right {
+    margin-right: 30px;
+  }
+
+  .content3 .flex-list li {
+    width: 30%;
+    margin-left: 10%;
+  }
+
+  .content2 .container .right .btn-wrapper {
+    width: 35%;
+  }
+}
+
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .main .container {
+    width: 80%;
+  }
+
+  .content1 .container .left,
+  .content1 .container .right {
+    width: 50%;
+    padding: 20px;
+  }
+
+  .content2 .container .right .btn-wrapper {
+    width: 40%;
+  }
+
+  .content3 .flex-list li {
+    width: 100%;
+    margin-left: 20%;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .content1 .container {
+    width: 100%;
+  }
+
+  .content1 .container .left,
+  .content1 .container .right {
+    width: 100%;
+  }
+
+  .content2 .container .left,
+  .content2 .container .right {
+    width: 100%;
+  }
+
+  .content3 .flex-list li {
+    margin-left: 50px;
+  }
+
+  .content4 .container .left,
+  .content4 .container .right {
+    width: 100%;
+  }
+
+  .content5 .image-1,
+  .content5 .image-2 {
+    width: 100%;
+  }
+
+  .content6 .box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .content6 .btn-submit {
+    width: 100%;
+    margin-left: 0px;
+  }
+}

@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #223728;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+header .container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left .logo {
+  width: 30px;
+  margin: 15px 0px;
+}
+
+.header-right {
+  float: right;
+  margin-right: 25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: black;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  font-family: Lucida Sans;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+.main {
+  padding: 180px 0 100px 0;
+  background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/cbe298b85a245e2f965a5a31/b-min.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.main .container {
+  max-width: 1170px;
+  width: 50%;
+  padding: 0 15px;
+  margin: 0 auto;
+  border: 5px solid white;
+}
+
+.main h1 {
+  font-size: 80px;
+  margin: 85px 0px;
+}
+
+.content1 {
+  background-color: #d8dfd0;
+  padding: 50px 0px;
+  height: auto;
+}
+
+.content1 .container {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content1 .container .left,
+.content1 .container .right {
+  width: 50%;
+  padding: 50px;
+}
+
+.content1 .container .left h1,
+.content1 .container .right h1 {
+  font-size: 200px;
+  margin: 0;
+  color: white;
+}
+
+.content2 .container {
+  display: flex;
+  height: 900px;
+  flex-wrap: wrap;
+}
+
+.content2 .container .left {
+  background-image: url(assets/foto1.jpg);
+  background-size: cover;
+  background-position: bottom;
+  width: 50%;
+  text-align: center;
+  color: white;
+}
+
+.content2 .container .left h1 {
+  margin-top: 100px;
+  color: White;
+  font-size: 50px;
+}
+
+.content2 .container .right {
+  background-image: url(assets/imageedit_1_7575145055.png);
+  width: 50%;
+  background-size: cover;
+  background-position: bottom;
+  text-align: center;
+}
+
+.content2 .container .right h2 {
+  font-size: 45px;
+}
+
+.content2 .container .right .btn-wrapper {
+  margin: 20px auto;
+  color: white;
+  font-size: 20px;
+  background-color: #000000;
+  width: 30%;
+}
+
+.content2 .container .right .btn-wrapper .btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.5;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.content3 ul {
+  list-style: none;
+}
+
+.content3 .flex-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.content3 .flex-list li {
+  width: 30%;
+  margin-right: 3%;
+}
+
+.content4 {
+  background-color: honeydew;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.content4 .container {
+  font-family: Lucida Sans;
+  font-size: 15px;
+  text-align: justify;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.content4 .title {
+  color: forestgreen;
+  width: 100%;
+  padding: 0 50px;
+}
+
+.content4 .container .left,
+.content4 .container .right {
+  width: 50%;
+  line-height: 20px;
+  padding: 0 50px;
+}
+
+.content5 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+}
+
+.content5 .image-1 {
+  width: 50%;
+  background-image: url(https://images.pexels.com/photos/886521/pexels-photo-886521.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-size: cover;
+}
+
+.content5 .image-2 {
+  width: 50%;
+  background-image: url(https://images.pexels.com/photos/957024/forest-trees-perspective-bright-957024.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-size: cover;
+}
+
+.content6 {
+  background-image: url(assets/gambar1.jpg);
+  /* height: 350px; */
+  padding: 50px 100px;
+  background-position: center;
+  background-size: cover;
+}
+
+.content6 .text {
+  color: white;
+  font-size: 50px;
+}
+
+.content6 .box {
+  padding: 10px;
+  font-size: 20px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.content6 .btn-submit {
+  padding: 10px;
+  font-size: 20px;
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  margin-left: 10px;
+}
+
+footer {
+  background-color: #223728;
+  color: grey;
+  text-align: center;
+  padding: 10px;
+}
